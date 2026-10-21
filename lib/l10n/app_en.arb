@@ -1,0 +1,545 @@
+{
+  "@@locale": "en",
+  "appName": "Memories",
+  "comingSoon": "Coming soon",
+  "featureComingSoon": "{feature} · Coming soon",
+  "@featureComingSoon": {
+    "placeholders": {
+      "feature": {
+        "type": "String"
+      }
+    }
+  },
+  "loadError": "Something went wrong. Pull to try again.",
+  "tryAgain": "Try again",
+  "seeAll": "See all",
+  "done": "Done",
+  "change": "Change",
+  "optional": "Optional",
+  "saveFailed": "Couldn't save. Please try again.",
+  "search": "Search",
+  "filter": "Filter",
+  "more": "More",
+  "share": "Share",
+  "save": "Save",
+  "copy": "Copy",
+  "copied": "Copied",
+  "notifications": "Notifications",
+  "onlyYou": "Only you",
+  "navHome": "Home",
+  "navMemories": "Memories",
+  "navAdd": "Add",
+  "navChat": "Chat",
+  "navProfile": "Profile",
+  "greetingMorning": "Good morning, {name}",
+  "@greetingMorning": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "greetingAfternoon": "Good afternoon, {name}",
+  "@greetingAfternoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "greetingEvening": "Good evening, {name}",
+  "@greetingEvening": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "justNow": "Just now",
+  "minutesAgo": "{count}m ago",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hoursAgo": "{count}h ago",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "daysAgo": "{count}d ago",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "weeksAgo": "{count}w ago",
+  "@weeksAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "today": "Today",
+  "yesterday": "Yesterday",
+  "tomorrow": "tomorrow",
+  "inDays": "in {count} days",
+  "@inDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "moodAmazing": "Happy",
+  "moodGood": "Good",
+  "moodOkay": "Okay",
+  "moodSad": "Sad",
+  "moodVeryBad": "Very Bad",
+  "feelingMood": "Feeling {mood}",
+  "@feelingMood": {
+    "placeholders": {
+      "mood": {
+        "type": "String"
+      }
+    }
+  },
+  "notYet": "Not yet",
+  "moodPrompt": "Only your close friends will see this.",
+  "moodSharedLine": "Feeling {mood} today · shared with your friends",
+  "@moodSharedLine": {
+    "placeholders": {
+      "mood": {
+        "type": "String"
+      }
+    }
+  },
+  "yourStory": "Your story",
+  "friendsSectionTitle": "Friends Today",
+  "friendsCheckedIn": "{checked} of {total} checked in",
+  "@friendsCheckedIn": {
+    "placeholders": {
+      "checked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "friendsEmptyTitle": "No friends added yet",
+  "friendsEmptyBody": "Add the people you want to share moments with.",
+  "addFriend": "Add Friend",
+  "openWhenTitle": "Open When",
+  "openWhenEmptyTitle": "No scheduled messages yet",
+  "openWhenEmptyBody": "Write something for someone to open at the right moment.",
+  "createOpenWhen": "Create Open When",
+  "scheduledMessages": "{count, plural, =1{1 scheduled message} other{{count} scheduled messages}}",
+  "@scheduledMessages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "nextOpens": "Next one opens {date} · {relative}",
+  "@nextOpens": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "relative": {
+        "type": "String"
+      }
+    }
+  },
+  "fromName": "From {name}",
+  "@fromName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "opensOn": "Opens {date}",
+  "@opensOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ready": "Ready",
+  "sealed": "Sealed",
+  "openNow": "Open now",
+  "momentsSectionTitle": "Moments with your people",
+  "momentsEmptyTitle": "No memories yet",
+  "momentsEmptyBody": "Memories your friends share with you will appear here.",
+  "sharedMemoryWithYou": "{name} shared a memory with you",
+  "@sharedMemoryWithYou": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "addMemory": "Add Memory",
+  "memoriesCount": "{count, plural, =1{1 memory} other{{count} memories}}",
+  "@memoriesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "memoriesSubtitle": "Everything you've kept, together.",
+  "filterAll": "All",
+  "filterFriends": "Friends",
+  "filterShared": "Shared",
+  "filterCapsules": "Waiting Messages",
+  "thisMonth": "This month · {month}",
+  "@thisMonth": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "statMemories": "{count, plural, =1{memory} other{memories}}",
+  "@statMemories": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "statPeople": "{count, plural, =1{person} other{people}}",
+  "@statPeople": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "moodYearTitle": "Your Mood Year",
+  "moodYearSubtitle": "See your mood history month by month",
+  "recentMemories": "Recent",
+  "memoriesEmptyTitle": "No memories yet",
+  "memoriesEmptyBody": "Save your first memory: a moment, and the people in it.",
+  "filterEmpty": "Nothing here yet.",
+  "withPeople": "with {people}",
+  "@withPeople": {
+    "placeholders": {
+      "people": {
+        "type": "String"
+      }
+    }
+  },
+  "peopleTwo": "{first} & {second}",
+  "@peopleTwo": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "second": {
+        "type": "String"
+      }
+    }
+  },
+  "peopleMany": "{count} friends",
+  "@peopleMany": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "visibilityPrivate": "Private",
+  "visibilityFriends": "Friends",
+  "visibilityShared": "Shared",
+  "visibilityCapsule": "Waiting message",
+  "withOverline": "With",
+  "commentsTitle": "Comments",
+  "commentsPlaceholder": "Conversations are coming soon. Replies will appear here.",
+  "addCommentHint": "Add a comment…",
+  "moreOptions": "More options",
+  "createTitle": "Create",
+  "createSubtitle": "What do you want to save or share?",
+  "createFootnote": "Everything stays private until you choose to share it.",
+  "addMemoryDescription": "Save a moment and the people in it.",
+  "openWhenDescription": "Write something to be opened later.",
+  "moodCheckInTitle": "Mood Check-in",
+  "moodCheckInDescription": "Note how today feels, in a few seconds.",
+  "memorySaved": "Memory saved",
+  "letterScheduled": "Open When scheduled",
+  "checkInSaved": "Check-in saved",
+  "addMemorySubtitle": "Keep the moment, and who you shared it with.",
+  "addPhotos": "Add photos",
+  "photoUploadSoon": "Tap to choose from your photos",
+  "photoUpload": "Photo upload",
+  "fieldTitle": "Title",
+  "titleHint": "e.g. Beach sunset",
+  "titleRequired": "Give this memory a title.",
+  "fieldDate": "Date",
+  "fieldPeopleInvolved": "People involved",
+  "addPeople": "Add people",
+  "removePerson": "Remove {name}",
+  "@removePerson": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "noFriendsToPick": "You haven't added any friends yet.",
+  "fieldCaption": "Caption",
+  "captionHint": "What do you want to remember about it?",
+  "fieldWhoCanSee": "Who can see it",
+  "privacyPrivate": "Private",
+  "privacyFriends": "Friends",
+  "privacySelected": "Selected people",
+  "privacyPrivateDesc": "Only you can see it.",
+  "privacyFriendsDesc": "All your friends can see it.",
+  "privacySelectedDesc": "Only the people involved can see it.",
+  "choosePeopleError": "Choose who to share this memory with.",
+  "saveMemory": "Save memory",
+  "openWhenSubtitle": "A message that waits for the right moment.",
+  "fieldFor": "For",
+  "chooseRecipient": "Choose recipient",
+  "recipientRequired": "Choose who this is for.",
+  "fieldOpenWhen": "Open when…",
+  "openWhenHint": "you need a reminder of who you are",
+  "openWhenRequired": "Finish the \"Open when…\" line.",
+  "fieldMessage": "Message",
+  "messageBodyHint": "Write what you want them to read.",
+  "messageRequired": "Write your message.",
+  "fieldOpenDate": "Can be opened on",
+  "fieldNoteToSelf": "Note to yourself",
+  "noteToSelfHint": "Only you will see this.",
+  "schedule": "Schedule",
+  "moodCheckInSubtitle": "How are you today?",
+  "moodNoteLabel": "Want to say something about today?",
+  "moodNoteHint": "A few words, just for you.",
+  "saveCheckIn": "Save check-in",
+  "chatTitle": "Chat",
+  "chatSubtitle": "Stay close to your people.",
+  "newMessage": "New message",
+  "moodTodayTitle": "Mood Today",
+  "moodTodayEmpty": "No friends have checked in yet",
+  "messagesTitle": "Messages",
+  "unreadCount": "{count} unread",
+  "@unreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "allCaughtUp": "All caught up",
+  "conversationsEmptyTitle": "No conversations yet",
+  "conversationsEmptyBody": "Start a conversation with one of your friends.",
+  "startChat": "Start Chat",
+  "startChatTitle": "Start a chat",
+  "youPrefix": "You: {text}",
+  "@youPrefix": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "sayHello": "Say hello",
+  "online": "Online",
+  "messageHint": "Message",
+  "send": "Send",
+  "sending": "Sending…",
+  "sent": "Sent",
+  "read": "Read",
+  "notSent": "Not sent",
+  "shareInChat": "Share in chat",
+  "attachMemoryDesc": "Share a memory in this chat",
+  "sendOpenWhen": "Send Open When",
+  "sendOpenWhenDesc": "A message they can open later",
+  "chatOptions": "Chat options",
+  "closeReactions": "Close reactions",
+  "reactionLove": "Love",
+  "reactionAgree": "Agree",
+  "reactionHaha": "Haha",
+  "reactionSad": "Sad",
+  "friendsTitle": "Friends",
+  "friendsSubtitle": "The people you share your moments with.",
+  "friendsCount": "{count, plural, =0{No friends yet} =1{1 friend} other{{count} friends}}",
+  "@friendsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "addFriendSubtitle": "Add someone you want to share moments with.",
+  "fieldName": "Name",
+  "nameHint": "Their full name",
+  "nameRequired": "Enter a name.",
+  "fieldContact": "Email or phone",
+  "contactHint": "So you can invite them later",
+  "friendAdded": "{name} added",
+  "@friendAdded": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "message": "Message",
+  "ourStory": "Our Story",
+  "ourStorySubtitle": "Everything you've shared with {name}.",
+  "@ourStorySubtitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "ourStoryEmptyTitle": "No shared memories yet",
+  "ourStoryEmptyBody": "Memories you share with {name} will appear here.",
+  "@ourStoryEmptyBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "noMoodToday": "Hasn't checked in today",
+  "sharedMemoriesStat": "{count, plural, =1{shared memory} other{shared memories}}",
+  "@sharedMemoriesStat": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileTitle": "Profile",
+  "settings": "Settings",
+  "settingsSubtitle": "Language and preferences",
+  "language": "Language",
+  "languageHint": "Choose the language of the app.",
+  "readyToOpen": "Ready to open",
+  "tapToOpen": "Tap to open",
+  "openedOn": "Opened {date}",
+  "@openedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "firstOpenedOn": "First opened {date}",
+  "@firstOpenedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "writtenOn": "Written {date}",
+  "@writtenOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "fromYou": "From you",
+  "futureYou": "Future you",
+  "letterLockedToast": "This message opens {date}",
+  "@letterLockedToast": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceNote": "Voice note",
+  "yourNote": "Your note",
+  "letterForYou": "For you",
+  "sealedMessage": "Sealed message",
+  "openWhenPhrase": "Open when {phrase}",
+  "@openWhenPhrase": {
+    "placeholders": {
+      "phrase": {
+        "type": "String"
+      }
+    }
+  },
+  "waitingMessagesTitle": "Waiting Messages",
+  "waitingMessagesSubtitle": "Messages that open at the right moment.",
+  "waitingMessageOverline": "Waiting message",
+  "waitingEmptyTitle": "No waiting messages yet",
+  "waitingEmptyBody": "Write a message that opens on the date and time you choose.",
+  "createMessage": "Create Message",
+  "createMessageSubtitle": "Write it now. It opens when the time comes.",
+  "waitingMessagesDescription": "Schedule a message to open later.",
+  "fieldRecipient": "To",
+  "fieldMessageTitle": "Message title",
+  "messageTitleHint": "e.g. For your birthday",
+  "messageTitleRequired": "Give the message a title.",
+  "fieldImage": "Image",
+  "addImage": "Add an image",
+  "removeImage": "Remove image",
+  "fieldOpenDay": "Opens on",
+  "fieldOpenTime": "At",
+  "openTimeInPast": "Choose a time in the future.",
+  "scheduleMessage": "Schedule message",
+  "messageScheduled": "Message scheduled",
+  "toName": "To {name}",
+  "@toName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "toFutureYou": "To future you",
+  "attachWaitingMessage": "Waiting message",
+  "attachWaitingMessageDesc": "A message that opens later",
+  "imagePickFailed": "Couldn't open your photos.",
+  "statusWaiting": "Waiting",
+  "statusOpened": "Opened",
+  "authSignInTitle": "Welcome back",
+  "authSignUpTitle": "Create your account",
+  "authSubtitle": "A private space for you and your people.",
+  "signIn": "Sign in",
+  "signUp": "Create account",
+  "haveAccount": "Already have an account?",
+  "noAccount": "New to Memories?",
+  "fieldEmail": "Email",
+  "fieldPassword": "Password",
+  "fieldYourName": "Your name",
+  "yourNameHint": "How friends will see you",
+  "emailInvalid": "Enter a valid email address.",
+  "passwordTooShort": "Use at least 6 characters.",
+  "passwordRequired": "Enter your password.",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "authErrorInvalidCredentials": "Email or password is incorrect.",
+  "authErrorEmailNotConfirmed": "Please confirm your email first, then sign in.",
+  "authErrorEmailInUse": "An account with this email already exists. Try signing in.",
+  "authErrorWeakPassword": "Choose a stronger password.",
+  "authErrorRateLimited": "Too many attempts. Please wait a moment and try again.",
+  "authErrorNetwork": "Can't connect. Check your internet connection.",
+  "authErrorUnknown": "Something went wrong. Please try again.",
+  "confirmEmailSent": "Check your email to confirm your account, then sign in.",
+  "account": "Account",
+  "signOut": "Sign out",
+  "signOutConfirm": "Sign out of Memories?",
+  "cancel": "Cancel",
+  "photoUploadFailed": "Couldn't upload the photo. Please try again."
+}
