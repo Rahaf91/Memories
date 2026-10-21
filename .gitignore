@@ -3,7 +3,16 @@
 *.log
 *.pyc
 *.swp
+*.tmp
+*.bak
+
+# macOS
 .DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
 .atom/
 .build/
 .buildlog/
@@ -27,6 +36,7 @@ migrate_working_dir/
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
+.flutter-plugins
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
@@ -50,7 +60,13 @@ app.*.map.json
 # Local environment and secrets (never commit)
 .env
 .env.*
+!.env.example
 *.env
+secrets.json
+*.secret
+service-account*.json
+supabase/.temp/
+supabase/.branches/
 env.json
 env.*.json
 !env.example.json
@@ -72,6 +88,7 @@ key.properties
 # Editors
 .vscode/
 *.code-workspace
+.fvm/
 
 # Generated localization report
 untranslated_messages.json

@@ -4,7 +4,7 @@ import '../../models/app_user.dart';
 /// authentication exists. There are no sample friends or content: the app
 /// starts like a brand-new account.
 abstract final class MockUsers {
-  static const me = AppUser(id: 'user-me', displayName: 'Rahaf');
+  static const me = AppUser(id: 'user-me', displayName: 'Test User');
 }
 
 /// Simulated network latency so loading states are exercised.

@@ -5,7 +5,7 @@ import 'package:memories/models/memory.dart';
 import 'package:memories/models/mood.dart';
 
 void main() {
-  const owner = AppUser(id: 'auth-uid-123', displayName: 'Rahaf');
+  const owner = AppUser(id: 'auth-uid-123', displayName: 'Test User');
 
   test('insert row matches public.memories and RLS (user_id = auth.uid())', () {
     final row = MemoryRows.toInsert(
